@@ -13,9 +13,9 @@ module.exports = {
     storyStoreV7: true,
   },
   viteFinal: (config, { configType }) => {
-    if (configType == "PRODUCTION") {
-      config.base = "/rafaellupo/";
-    }
+    // if (configType == "PRODUCTION") {
+    //   config.base = "/rafaellupo/";
+    // }
     return config;
   },
 };
