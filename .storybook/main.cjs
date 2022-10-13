@@ -14,7 +14,7 @@ module.exports = {
   },
   viteFinal: (config, { configType }) => {
     // if (configType == "PRODUCTION") {
-    //   config.base = "/rafaellupo/";
+    //   config.base = "/rafaellupo.github.io/";
     // }
     return config;
   },
